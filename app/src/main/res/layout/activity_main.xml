@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:background="#121212"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnNewsDesign"
+        android:text="تصميم خبر"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCustomize"
+        android:text="تخصيص قالب"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- منصات التواصل -->
+    <LinearLayout
+        android:id="@+id/socialIconsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iconFacebook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_facebook"
+            android:contentDescription="@string/facebook_url" />
+
+        <ImageView
+            android:id="@+id/iconTwitter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_twitter"
+            android:contentDescription="@string/twitter_url" />
+
+        <ImageView
+            android:id="@+id/iconInstagram"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_instagram"
+            android:contentDescription="@string/instagram_url" />
+
+        <ImageView
+            android:id="@+id/iconTelegram"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_telegram"
+            android:contentDescription="@string/telegram_url" />
+
+        <ImageView
+            android:id="@+id/iconWhatsApp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_whatsapp"
+            android:contentDescription="@string/whatsapp_url" />
+    </LinearLayout>
+
+</LinearLayout>

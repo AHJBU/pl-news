@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etNewsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اكتب نص الخبر"
+            android:background="@android:drawable/editbox_background"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#AAAAAA"
+            android:padding="12dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbBreaking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breaking"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/rbNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/rbUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="#FFFFFF" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="توليد التصميم"
+            android:layout_marginTop="12dp" />
+
+        <ImageView
+            android:id="@+id/ivResult"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            android:background="#222222" />
+
+    </LinearLayout>
+</ScrollView>

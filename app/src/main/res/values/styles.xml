@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PLNews" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>

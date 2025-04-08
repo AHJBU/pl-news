@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اختر صورة القالب"
+            android:backgroundTint="#03DAC5"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etNewsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اكتب نص الخبر هنا"
+            android:textColor="#FFF"
+            android:textColorHint="#AAA"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnGenerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="توليد الصورة"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#BB86FC"
+            android:textColor="#000" />
+
+        <ImageView
+            android:id="@+id/ivResult"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="16dp"
+            android:background="#222" />
+
+    </LinearLayout>
+</ScrollView>

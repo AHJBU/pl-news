@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PL News</string>
+    <string name="breaking_news">عاجل</string>
+    <string name="normal_news">عادي</string>
+    <string name="update_news">تحديث</string>
+    <string name="design_news">تصميم خبر</string>
+    <string name="custom_template">تخصيص قالب</string>
+    <string name="select_template">اختر نوع القالب</string>
+    <string name="enter_text">أدخل نص الخبر</string>
+    <string name="select_image">اختر صورة</string>
+    <string name="generate_image">إنشاء الصورة</string>
+    <string name="choose_logo">اختر شعار</string>
+    <string name="choose_font">اختر الخط</string>
+    <string name="facebook_url">https://www.facebook.com/pl.plus27</string>
+    <string name="twitter_url">hhttps://x.com/pl_plus1</string>
+    <string name="instagram_url">https://www.instagram.com/pl.plus1</string>
+    <string name="telegram_url">https://t.me/palliveps</string>
+    <string name="whatsapp_url">https://whatsapp.com/channel/0029VbAFWM7CMY0AcAQ6wJ0V</string>
+
+
+</resources>
